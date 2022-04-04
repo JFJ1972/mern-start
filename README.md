@@ -1,7 +1,12 @@
-# mern-start
+<h1>MERN</h1>
 
+<h2>Objetivo del proyecto</h2>
+<p>Desarrrollar To-Do list con full stack mern.</br>
+Se entrega como evaluacion para Educamas y su bootcamp "Programate", y como apropiacion de conocimientos de la seguna fase que correspondio a Back-end.</p></br>
 
-ToDoList_Mern Inicio
+El deploy se efectuo en Heroku</br>
+
+Mern Start
 
 ![TodoListMERN](https://user-images.githubusercontent.com/97111500/161640774-0fac92b1-0e9e-424e-825b-35b5030d067b.png)
 
