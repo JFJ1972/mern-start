@@ -58,6 +58,32 @@ npm start
 ## [todolist MERN (FRONTEND) HEROKU](https://mern-start-client.herokuapp.com/)
 ___
 ## [todolist MERN (BACKEND) HEROKU](https://mern-start.herokuapp.com/)
+1 crear cuenta en heroku<br/>
+2 crear proyecto en heroku para la carpeta server, pasos segun video<br/>
+El navegador debe dar respuesta error y  renderiza Cannot GET / <br/>
+3 cambiar lineas de los 2 package.jason (CLIENTE Y SERVER) segun instrucciones del grupo de telegram. <br/>
+3a-hacer los cambios en los tres archvos de la url <br/>
+4 crear proyecto en heroku para la carpeta cliente, repetir proceso hecho para server. <br/>
+4a instalar npm install serve --s <br/>
+
+Los cambios son:<br/> 
+
+Recordlist.js<br/>
+Linea 28<br/>
+const response = await fetch(`https://mern-start.herokuapp.com/record`,);<br/>
+linea 47<br/>
+await fetch(`https://mern-start.herokuapp.com/${id}`, {
+     method: "DELETE"<br/>
+
+En edit.js<br/>
+Linea 17<br/>
+const response = await fetch(`https://mern-start.herokuapp.com/record/${params.id.toString()}`);<br/>
+Linea 56<br/>
+await fetch(`https://mern-start.herokuapp.com/update/${params.id}`, <br/>
+
+En create.js<br/>
+Linea 26<br/>
+await fetch("https://mern-start.herokuapp.com/record/add", <br/>
 
 #### Recursos:
       MongoDB university.
